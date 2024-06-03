@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+     * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html, body {
+            display: grid;
+            height: 100%;
+            place-items: center;
+            text-align: center;
+        }
+
+        .wrapper {
+            background: #fff;
+            padding: 20px 30px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+            max-width: 600px;
+            width: 100%;
+            position: relative; /* 추가 */
+        }
+
+        .wrapper_2 {
+            background: #fff;
+            padding: 20px 30px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+            border-radius: 50%;
+            margin-top: -200px;
+        }
+
+        .wrapper .text, .wrapper_2 .text {
+            font-size: 35px;
+            font-weight: 600;
+        }
+
+        .wrapper p {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+
+        .wrapper .btns {
+            display: flex;
+            margin: 30px 0 20px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btns a {
+            position: relative;
+            margin: 0 10px 10px 10px;
+            height: 60px;
+            width: 150px;
+            display: block;
+            line-height: 60px;
+            border-radius: 30px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .btns a:first-child {
+            background: linear-gradient(-90deg, #f5ce62, #e85a19);
+        }
+
+        .btns a:last-child {
+            background: linear-gradient(90deg, #0162c8, #55e7fc);
+        }
+
+        .btns a > span {
+            position: absolute;
+            background: #fff;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            pointer-events: none;
+            animation: ripples 0.6s linear infinite;
+        }
+
+        .cc_p {
+            position: absolute;
+            right: 10px; /* 우측 여백 조절 */
+            bottom: 10px; /* 하단 여백 조절 */
+            text-align: right;
+            width: 100%; /* 너비 100%로 설정 */
+            
+        }
+
+        .cc_p p {
+            display: inline-block; /* 인라인 블록으로 설정하여 한 줄에 배치 */
+            margin-left: 10px; /* 간격 조절 */
+            font-size: 5pt;
+        }
+
+        @keyframes ripples {
+            0% {
+                width: 0px;
+                height: 0px;
+                opacity: 0.5;
+            }
+            100% {
+                width: 500px;
+                height: 500px;
+                opacity: 0;
+            }
+        }
+    </style>
+</style>
+<body>
+    <div class="wrapper">
+        <div class="text">
+           1박2일 스키&보드 캠프
+        </div>
+        <p>
+           2024.01.05(금) 08:00~
+        </p>
+        <div class="btns">
+           <a href="#">참석</a>
+           <a href="#">불참</a>
+        </div>
+        <div class="cc_p">
+            <p>참석 15</p>
+            <p>불참 20</p>
+         </div>
+     </div>
+
+
+     <div class="wrapper_2">
+        <div class="text">
+           +
+        </div>
+        
+     </div>
+    
+    
+</body>
+</html>

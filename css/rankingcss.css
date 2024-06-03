@@ -1,0 +1,170 @@
+.main_logo{
+    position: absolute;
+    clear: both;
+    top: 1%;
+    left: 1%;
+  }
+  .main_logo img{
+    width: 80px;
+  }
+
+  .main_menu{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+   
+    width: 80%;
+  }
+  .main_menu p{
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Nanum Myeongjo', serif;
+  }
+  .menu_bar{
+    display: none;
+  }
+ 
+
+
+.text_title{
+    position: relative;
+    clear: both;
+    width: 250px;
+    height: 60px;
+    background: #ee3d09;
+    text-align: center;
+    margin: 0px auto;
+    z-index: 1;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.text_title>p{
+    padding-top: 5px;
+    font-size: 30px;
+}
+.box_wrap{
+    position: relative;
+    clear: both;
+    width: 350px;
+    height: 580px;
+    background-color: #fdcc14;
+    margin: -35px auto;
+    border-radius: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.sec_box,.thi_box{
+    width: 80px;
+    height: 120px;
+    
+    position: relative;
+    float: left;
+    margin: 80px 10px 0 20px;
+}
+.sec_text,.thi_text{
+    position: relative;
+    clear: both;
+    text-align: center;
+    color: white;
+    text-shadow: #00000023 2px 2px;
+}
+.sec_img,.thi_img{
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.fir_box{
+    width: 120px;
+    height: 180px;
+    
+    position: relative;
+    float: left;
+    margin: 60px 0px 0 5px;
+}
+.fir_text{
+    position: relative;
+    clear: both;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    text-shadow: #00000023 2px 2px;
+}
+.fir_img{
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+
+.img_list{
+    text-align: center;
+    width: 15%;
+}
+.color_1{
+    background-color: #fef0b4;
+}
+table{
+    border-collapse : collapse;
+    width: 100%;
+    margin:  auto;
+    border-radius: 10px;
+    color: #ee3d09;
+    
+}
+.table_box{
+    border-radius: 25px;
+    background-color: #fee681;
+    position: relative;
+    clear: both;
+    width: 95%;
+    height: 330px;
+    margin: 0 auto;
+    
+}
+.nic_list{
+
+    width: 55%;
+    text-align: left;
+}
+.num_list{
+    text-align: center;
+    width: 55%;
+
+}
+
+
+@media (max-width: 767px) {
+    
+    .main_menu p{
+        position: relative;
+        clear: both;
+        margin-right: 5%;
+        color: #ffffff;
+      }
+      .main_menu{
+        display: none;
+      }
+      .menu_bar{
+        display: block;
+        position: absolute;
+        top: 2%;
+        right: 5%;
+        width: 30px;
+        height: auto;
+      }
+      .menu_bar img{
+        width: 100%;
+      }
+}
+.margin_100px{
+    width: 100px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+  }

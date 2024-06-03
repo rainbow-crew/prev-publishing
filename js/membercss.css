@@ -1,0 +1,26 @@
+.main_logo{
+    position: absolute;
+    clear: both;
+    top: 1%;
+    left: 1%;
+  }
+  .main_logo img{
+    width: 80px;
+  }
+
+  .main_menu{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+   
+    width: 80%;
+  }
+  .main_menu p{
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    color: #ffffff;
+  }
+  .menu_bar{
+    display: none;
+  }
